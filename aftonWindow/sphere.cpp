@@ -12,8 +12,7 @@
 #include <QExposeEvent>
 #include <cmath>
 #include <QVector3D>
-#include <vec3.hpp>
-#include <vec3.h>
+
 #include <QPainter>
 
 
@@ -166,10 +165,10 @@ public:
             if (filled)
             {
                 // draw filled triangle
-                if (drawFrontFacing)
-                    drawTriangle (c, b, a, color);
-                else
-                    drawTriangle (a, b, c, color);
+//                if (drawFrontFacing)
+//                    drawTriangle (c, b, a, color);
+//                else
+//                    drawTriangle (a, b, c, color);
             }
             else
             {
@@ -203,21 +202,21 @@ public:
                                  const QVector3D& b,
                                  const QVector3D& color) const
     {
-        if (a.x != b.x)
-        {
-            if (a.x > b.x) drawLine (a, b, color);
-        }
-        else
-        {
-            if (a.y != b.y)
-            {
-                if (a.y > b.y) drawLine (a, b, color);
-            }
-            else
-            {
-                if (a.z > b.z) drawLine (a, b, color);
-            }
-        }
+//        if (a.x != b.x)
+//        {
+//            if (a.x > b.x) drawLine (a, b, color);
+//        }
+//        else
+//        {
+//            if (a.y != b.y)
+//            {
+//                if (a.y > b.y) drawLine (a, b, color);
+//            }
+//            else
+//            {
+//                if (a.z > b.z) drawLine (a, b, color);
+//            }
+//        }
     }
 
 };
