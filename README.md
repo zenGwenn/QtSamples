@@ -1,2 +1,2 @@
 # QtSamples
-learning Qt and openGL
+Learning Qt and openGL.
