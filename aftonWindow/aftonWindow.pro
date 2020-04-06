@@ -23,7 +23,7 @@ INCLUDEPATH += "../libraries/glm-master/glm"
 
 SOURCES += \
         main.cpp \
-        # sphere.cpp \
+        sphere.cpp \
         transform3d.cpp \
         # vec3.cpp \
         window.cpp
